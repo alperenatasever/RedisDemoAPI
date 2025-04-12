@@ -1,0 +1,44 @@
+# Build and output directories
+bin/
+obj/
+
+# User-specific files
+*.csproj.user
+*.suo
+
+# Visual Studio Code settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.log
+*.cache
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# Project-specific files
+project.assets.json
+*.nuget.g.props
+*.nuget.g.targets
+
+# Debug and release configurations
+*.pdb
+*.exe
+*.dll
+*.runtimeconfig.json
+*.deps.json
+*.staticwebassets.json
+
+# Generated files
+*.GeneratedMSBuildEditorConfig.editorconfig
+*.AssemblyInfo.cs
+*.GlobalUsings.g.cs
+*.sourcelink.json
+
+# Static web assets
+staticwebassets/
+*.build.endpoints.json
+*.build.json
+*.removed.txt
